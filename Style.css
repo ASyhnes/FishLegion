@@ -1,0 +1,17 @@
+
+    /* En CSS
+    ajouter un commentaire
+    sur plusieurs lignes */
+       
+
+p, h1, h2, body {
+    color: #348781;
+}
+
+.ma-classe {
+    color: #663399;
+    font-size: 30px;
+}
+
+
+
