@@ -1,0 +1,4 @@
+le projet devra permettre de connecter un compte personnel (sur le site web) a un ou plusieur wallet NFT.
+ce site web permettra d'avoir une vision global de sa collection de nft liés au jeu, de pouvoir gérer ces "decks" de carte (nft)
+et de pouvoir lancer des partie de jeux en ligne.
+
