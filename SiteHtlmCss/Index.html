@@ -1,26 +1,61 @@
-
-
 <!DOCTYPE html>
 <html lang="fr">
-    <head>
-        <meta charset="utf-8">
-        <title>OF-Fish</title>
-        <link rel="stylesheet" href="Style.css"/>
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <title>Accueil</title>
+    <link rel="stylesheet" href="Navbar.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="bouton.css">
+    <link rel="stylesheet" href="general.css">
+    
+</head>
 
-    <body>  <!--pour commenter, on utilise la touche "ctrl+Slah"-->
-        <h1>Ici commence le projet de site web sur les OF-Fish</h1>
-        <br>
-        <a href="Sources/images/dos.png"><img src="Sources/images/dos_Mini.png" alt="Logo Fish's Legion" title="Cliquez pour agrandir" ></a>
+<body>
+    <nav class="navbar">
+        <div class="navbar-left">
+            <div class="dropdown">
+                <button class="dropbtn">Présentation</button>
+                <div class="dropdown-content">
+                    <a href="lore.html">Lore</a>
+                    <a href="news.html">Les News</a>
+                    <a href="project_presentation.html">Le Projet</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">Jouer</button>
+                <div class="dropdown-content">
+                    <a href="get_started.html">Commencer</a>
+                    <a href="play.html">Jouer</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">NFT</button>
+                <div class="dropdown-content">
+                    <a href="trade.html">Vente Échange</a>
+                    <a href="nft.html">Les NFT</a>
+                </div>
+            </div>
+        </div>
+        <a href="in_progress.html" class="connect-wallet">Connect Your Wallet</a>
+    </nav>
+    
+    
+       
+    <header>
+        <h1>Bienvenue sur Notre Site</h1>
+    </header>
 
-        <H2>Prêt pour découvrir le monde magique de <span class="ma-classe">Legion?</span></H2>
-        <!-- Vous pouvez voir qu'ici, le texte revient à la ligne sans changer de paragraphe -->
-        <p>Ce cite est en cours de création
-        <br>l'architecture et les sijet traité ne sont là pour le moment que pour préparer le sujet.</p>
-        <!-- Alors qu'ici, on saute une ligne pour créer un nouveau paragraphe -->
+    <section class="container">
+        <!-- Contenu de la page d'accueil -->
+        <div class="btn from-right">Start a game! ====>>>></div>
 
-        <p><a href="Apropos.html">Vous voulez en savoir sur le jeux?</a> </p>
-        <br>
-        <p><a href="Contact.html">Vous voulez prendre contact?</a> </p>
-    </body>
+          
+    </section>
+
+
+    <footer>
+        <p>&copy; Legion's Fish 2023</p>
+    </footer>
+</body>
 </html>
