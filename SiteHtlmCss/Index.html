@@ -8,54 +8,102 @@
     <link rel="stylesheet" href="header.css">
     <link rel="stylesheet" href="bouton.css">
     <link rel="stylesheet" href="general.css">
+    <link rel="stylesheet" href="audio.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+
+
     
 </head>
 
 <body>
-    <nav class="navbar">
-        <div class="navbar-left">
-            <div class="dropdown">
-                <button class="dropbtn">Présentation</button>
-                <div class="dropdown-content">
-                    <a href="lore.html">Lore</a>
-                    <a href="news.html">Les News</a>
-                    <a href="project_presentation.html">Le Projet</a>
+    <nav>
+        <div class="wrapper">
+          <div class="logo"><img src="img/dos.png" alt=""></a></div>
+          <input type="radio" name="slider" id="menu-btn">
+          <input type="radio" name="slider" id="close-btn">
+          <ul class="nav-links">
+            <label for="close-btn" class="btn close-btn"><i class="fas fa-times"></i></label>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li>
+              <a href="#" class="desktop-item">Dropdown Menu</a>
+              <input type="checkbox" id="showDrop">
+              <label for="showDrop" class="mobile-item">Dropdown Menu</label>
+              <ul class="drop-menu">
+                <li><a href="#">Drop menu 1</a></li>
+                <li><a href="#">Drop menu 2</a></li>
+                <li><a href="#">Drop menu 3</a></li>
+                <li><a href="#">Drop menu 4</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#" class="desktop-item">Mega Menu</a>
+              <input type="checkbox" id="showMega">
+              <label for="showMega" class="mobile-item">Mega Menu</label>
+              <div class="mega-box">
+                <div class="content">
+                  <div class="row">
+                    <img src="img/goldsansfond2.png" alt="">
+                  </div>
+                  <div class="row">
+                    <header>Design Services</header>
+                    <ul class="mega-links">
+                      <li><a href="#">Graphics</a></li>
+                      <li><a href="#">Vectors</a></li>
+                      <li><a href="#">Business cards</a></li>
+                      <li><a href="#">Custom logo</a></li>
+                    </ul>
+                  </div>
+                  <div class="row">
+                    <header>Email Services</header>
+                    <ul class="mega-links">
+                      <li><a href="#">Personal Email</a></li>
+                      <li><a href="#">Business Email</a></li>
+                      <li><a href="#">Mobile Email</a></li>
+                      <li><a href="#">Web Marketing</a></li>
+                    </ul>
+                  </div>
+                  <div class="row">
+                    <header>Security services</header>
+                    <ul class="mega-links">
+                      <li><a href="#">Site Seal</a></li>
+                      <li><a href="#">VPS Hosting</a></li>
+                      <li><a href="#">Privacy Seal</a></li>
+                      <li><a href="#">Website design</a></li>
+                    </ul>
+                  </div>
                 </div>
-            </div>
-            <div class="dropdown">
-                <button class="dropbtn">Jouer</button>
-                <div class="dropdown-content">
-                    <a href="get_started.html">Commencer</a>
-                    <a href="play.html">Jouer</a>
-                </div>
-            </div>
-            <div class="dropdown">
-                <button class="dropbtn">NFT</button>
-                <div class="dropdown-content">
-                    <a href="trade.html">Vente Échange</a>
-                    <a href="nft.html">Les NFT</a>
-                </div>
-            </div>
+              </div>
+            </li>
+            <li><a href="#">Feedback</a></li>
+          </ul>
+          <label for="menu-btn" class="btn menu-btn"><i class="fas fa-bars"></i></label>
+          <div href="#" class="nav-button">Connect your wallet</div>
         </div>
-        <a href="in_progress.html" class="connect-wallet">Connect Your Wallet</a>
-    </nav>
+      </nav>
+      
+      
     
-    
-       
     <header>
         <h1>Bienvenue sur Notre Site</h1>
     </header>
 
-    <section class="container">
-        <!-- Contenu de la page d'accueil -->
-        <div class="btn from-right">Start a game! ====>>>></div>
 
-          
-    </section>
+    <!-- Contenu de la page d'accueil -->
+    
 
+   
 
+     
+    
     <footer>
-        <p>&copy; Legion's Fish 2023</p>
+        <button class='glowing-btn'><span class='glowing-txt'>Star<span class='faulty-letter'>t</span> a Gam<span class='faulty-letter'>e</span></span></button>
+        <button class='glowing-btn2'><span class='glowing-txt2'><span class='faulty-letter'>L</span>O<span class='faulty-letter'>R</span>E</span></button>
+
     </footer>
+
+
+   
 </body>
 </html>
