@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    padding: 20%;
+    background-image: url("img/background.png") ; 
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    overflow-y: auto;
+  }
+  
+  .dex {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columns */
+    gap: 20px;
+  }
+  
+  .card {
+    background-color: rgba(0, 150, 167, 0.267); 
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    aspect-ratio: 1; /* Makes each card square */
+  }
+
+  .card img {
+    width: 100%;  /* Ajuste la largeur de l'image à celle de la div */
+    height: auto; /* Ajuste la hauteur de l'image tout en gardant les proportions */
+    display: block; /* Empêche l'ajout d'espace supplémentaire en dessous de l'image */
+  }
+  
+  .card p {
+    margin: 5px 0;
+  }
+  
+  /* Hide text elements that start with '#' */
+  .card p:first-child::before {
+    content: "";
+    display: none;
+  }
+  
+  #text {
+    width: 100%; /* Largeur de la div */
+    margin: 0 auto; /* Centre la div horizontalement */
+    margin-top: 59px;
+    background-color: rgba(0, 150, 167, 0.267); /* Fond bleu transparent */
+    border-radius: 10px; /* Coins arrondis */
+    padding: 20px; /* Marge interne pour aérer la page */
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3); /* Ombre portée */
+    
+  }

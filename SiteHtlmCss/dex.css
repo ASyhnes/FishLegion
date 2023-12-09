@@ -1,0 +1,77 @@
+:root {
+    --glow-color: hsl(199, 100%, 69%);
+  }
+
+body {
+    margin: 0;
+    padding: 20%;
+    background-image: url("img/background.png") ; 
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    }
+  
+.dex {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columns */
+    gap: 20px;
+  }
+  
+.card {
+    background-color: rgba(0, 150, 167, 0.267); 
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    aspect-ratio: 1; /* Makes each card square */
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3); /* Ombre portée */; 
+    transition: transform 0.3s; /* Ajoute une transition douce pour l'effet de grossissement */
+    }
+  
+    
+
+.card:hover {
+    transform: scale(1.5); /* Augmente la taille de la carte de 10% au survol */
+    background-color: rgba(0, 150, 167, 0.856);
+    border: 0.15em solid var(--glow-color);
+    border-radius: 0.45em;
+    box-shadow:
+        0 0 8px #c20707bd,
+        inset 0 0 8px #39e704,
+        0 0 16px #0961be,
+        inset 0 0 16px #c411b5,
+        0 0 32px #0367d3,
+        inset 0 0 32px #007afc;
+
+    }
+
+.card img {
+    width: 100%;  /* Ajuste la largeur de l'image à celle de la div */
+    height: auto; /* Ajuste la hauteur de l'image tout en gardant les proportions */
+    display: block; /* Empêche l'ajout d'espace supplémentaire en dessous de l'image */
+    }
+    
+.card p {
+    margin: 5px 0;
+    }
+    
+    /* Hide text elements that start with '#' */
+.card p:first-child::before {
+    content: "";
+    display: none;
+    }
+
+    
+    
+
+
+    
