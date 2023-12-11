@@ -92,9 +92,52 @@
             <h1>Cards</h1>
         </header>
 
+        <div class="sidebar">
+          <ul class="filter-list">
+              <li>
+                  <label for="serie">Série</label>
+                  <select id="serie" name="serie">
+                      <option value="2021">2021</option>
+                      <option value="2023">2023</option>
+                  </select>
+              </li>
+              <li>
+                  <label for="rarete">Rareté</label>
+                  <select id="rarete" name="rarete">
+                      <option value="commune">Commune</option>
+                      <option value="unco">Unco</option>
+                      <option value="rare">Rare</option>
+                      <option value="gold">hors série</option>
+
+                  </select>
+              </li>
+              <li>
+                  <label for="famille">Famille</label>
+                  <select id="famille" name="famille">
+                      <option value="xeno">Xeno</option>
+                      <option value="undead">Undead</option>
+                      <option value="crazy">Crazy</option>
+                  </select>
+              </li>
+              <li>
+                  <label for="force">Force</label>
+                  <input type="range" id="force" name="force" min="1" max="9">
+              </li>
+              <li>
+                  <label for="intelligence">Intelligence</label>
+                  <input type="range" id="intelligence" name="intelligence" min="1" max="9">
+              </li>
+              <li>
+                  <label for="dexterite">Dextérité</label>
+                  <input type="range" id="dexterite" name="dexterite" min="1" max="9">
+              </li>
+          </ul>
+      </div>
+      
+
         <div class="dex">
             <!-- More cards following the same pattern -->
-            <a href="cosmofish.html"><div class="card"><img src="Sources/Cartes/1_2021_1_cosmofish_common.png" alt="cosmofish"><p>fish1</p><p>famille type</p></div></a>
+            <div class="card"><a href="cosmofish.html"><img src="Sources/Cartes/1_2021_1_cosmofish_common.png" alt="cosmofish"></a><p>fish1</p><p>famille type</p></div>
             <div class="card"><img src="Sources/Cartes/1_2021_2_crazyfish_common.png" alt="cosmofish"><p>fish2</p><p>famille type</p></div>
             <div class="card"><img src="Sources/Cartes/1_2021_3_propafish_common.png" alt="cosmofish"><p>fish3</p><p>famille type</p></div>
             <div class="card"><img src="Sources/Cartes/1_2021_4_devilfish_unco.png" alt="cosmofish"><p>fish3</p><p>famille type</p></div>

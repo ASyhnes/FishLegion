@@ -40,6 +40,8 @@ body {
     
 
 .card:hover {
+    z-index: 2;
+    animation-delay: 1s;
     transform: scale(1.5); /* Augmente la taille de la carte de 10% au survol */
     background-color: rgba(0, 150, 167, 0.856);
     border: 0.15em solid var(--glow-color);
@@ -63,14 +65,78 @@ body {
 .card p {
     margin: 5px 0;
     }
-    
-    /* Hide text elements that start with '#' */
+
+
+
 .card p:first-child::before {
     content: "";
     display: none;
     }
 
+    /*sidebare*/
     
+    .sidebar {
+        width: 150px; /* Largeur de la barre latérale */
+        background-color: rgba(255, 255, 255, 0); 
+        padding: 20px;
+        padding-top: 10%;
+        position: fixed; 
+        left: 0; 
+        top: 0; 
+        height: 100%; /* Hauteur complète */
+        overflow-y: auto; /* Ajoute un défilement si nécessaire */
+    }
+    
+    .sidebar select,
+    .sidebar input[type=range] {
+    width: 100%; 
+    padding: 5px; /* Ajoute un peu d'espace à l'intérieur */
+    margin-top: 5px; /* Espace au-dessus de chaque élément */
+}
+    /* Ajustement pour le contenu principal */
+
+
+    /* Style pour les curseurs */
+.sidebar input[type=range] {
+    -webkit-appearance: none; /* Supprime l'apparence par défaut */
+    appearance: none;
+    height: 10px; /* Hauteur du curseur */
+    background: #3201e434; /* Couleur de fond du curseur */
+    outline: none; /* Supprime l'outline au focus */
+    opacity: 0.7; /* Rend le curseur légèrement transparent */
+    transition: opacity 0.2s; /* Transition pour l'effet au survol */
+}
+
+.sidebar input[type=range]:hover {
+    opacity: 1; /* Opacité pleine au survol */
+    border-radius: 2px;
+}
+
+/* Style pour la piste du curseur */
+.sidebar input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Supprime l'apparence par défaut */
+    appearance: none;
+    width: 20px; /* Largeur de la piste */
+    height: 20px; /* Hauteur de la piste */
+    background: var(--glow-color); /* Couleur de la piste */
+    cursor: pointer; /* Curseur en forme de pointeur */
+}
+
+.sidebar input[type=range]::-moz-range-thumb {
+    width: 20px; /* Largeur de la piste pour Firefox */
+    height: 20px; /* Hauteur de la piste pour Firefox */
+    background: var(--glow-color); /* Couleur de la piste pour Firefox */
+    cursor: pointer;
+}
+
+.filter-list {
+    list-style-type: none; /* Supprime les puces */
+    padding: 0;
+}
+
+.dex {
+    margin-left: 10px; /* Espace pour la barre latérale */
+}
     
 
 
