@@ -49,6 +49,16 @@ body {
   animation: border-flicker 2s linear infinite;
 }
 
+.glowing-btn2 a {
+  text-decoration: none; /* Supprime le soulignement par défaut des liens */
+  color: inherit; /* Garde la couleur de texte héritée du parent, au lieu de la couleur par défaut des liens */
+}
+
+.glowing-btn2 a:hover, .glowing-btn2 a:focus, .glowing-btn2 a:active {
+  text-decoration: none; /* Supprime le soulignement au survol, focus, ou clic */
+  color: inherit; /* Garde la couleur de texte héritée lors du survol, focus, ou clic */
+}
+
 .glowing-txt {
   float: left;
   margin-right: -0.8em;
