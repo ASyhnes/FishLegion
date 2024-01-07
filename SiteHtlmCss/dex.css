@@ -32,9 +32,9 @@ body {
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    aspect-ratio: 1; /* Makes each card square */
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3); /* Ombre portée */; 
-    transition: transform 0.3s; /* Ajoute une transition douce pour l'effet de grossissement */
+    aspect-ratio: 1; 
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3); ; 
+    transition: transform 0.3s; 
     }
   
     
@@ -42,7 +42,7 @@ body {
 .card:hover {
     z-index: 2;
     animation-delay: 1s;
-    transform: scale(1.5); /* Augmente la taille de la carte de 10% au survol */
+    transform: scale(1.5); 
     background-color: rgba(0, 150, 167, 0.856);
     border: 0.15em solid var(--glow-color);
     border-radius: 0.45em;
@@ -57,8 +57,8 @@ body {
     }
 
 .card img {
-    width: 100%;  /* Ajuste la largeur de l'image à celle de la div */
-    height: auto; /* Ajuste la hauteur de l'image tout en gardant les proportions */
+    width: 100%;  
+    height: auto; 
     display: block; /* Empêche l'ajout d'espace supplémentaire en dessous de l'image */
     }
     
