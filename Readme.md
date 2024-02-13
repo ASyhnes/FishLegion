@@ -1,57 +1,64 @@
+
+
+---
+
 # Projet "Fish's Legion"
 
 ## Introduction
 
-Le projet **Fish's Legion** est un projet autodidacte visant à développer un ensemble de compétences à travers la création d'un jeu de cartes NFT. Ce projet a commencé comme un moyen de continuer à s'entraîner au dessin, mais a évolué pour inclure un riche lore, un système d'équilibrage des cartes basé sur les probabilités, et désormais, une immersion dans le monde des NFTs et du développement de jeux.
+Le projet **Fish's Legion** est un projet autodidacte visant à travailler sur un ensemble de compétences.
 
-## Objectifs d'apprentissage
+Initialement, il s'agissait pour moi de continuer à m'entraîner à dessiner. Puis, de fil en aiguille, est né un projet de jeu de cartes, qui a grossi avec la création d'un Lore, et d'un système d'équilibrage des cartes pour travailler sur les calculs de probabilités.
 
-- **Dessin et 3D** : Continuer à pratiquer le dessin tout en développant des compétences en modélisation 3D et en design procédural avec Unreal Engine et Substance Designer.
-- **Codage** : Apprendre Python et Solidity, ainsi que PHP et React pour le développement web.
-- **Web Development** : Revisiter les bases du HTML et du CSS pour la création de sites web from scratch.
-- **Organisation de projet** : Améliorer l'organisation de projets d'envergure en explorant des méthodes comme Agile et Kanban.
+Aujourd'hui, le projet a évolué sous le format de jeux NFT, me permettant de travailler, en plus de l'écriture et du dessin :
+- La 3D et les systèmes procéduraux via Unreal Engine et Substance Designer (j'ai déjà de solides bases en 3D : photogrammétrie, conception...)
+- Le codage : mon objectif à venir est d'aborder Python et Solidity, mais également PHP, React...
+- Revoir les bases pour la création de site Web : HTML et CSS
+- Travailler mon organisation pour les projets d'envergure (méthode Agile, méthode Kanban...)
 
-## Site Web
+## Site WEB
 
-Le site web, développé from scratch en HTML/CSS et PHP, est hébergé sur un serveur personnel dockerisé. Il est actuellement en construction, avec de nombreuses pages encore à développer.
+Dans le but d'apprendre et de développer mes compétences en HTML/CSS ainsi qu'en PHP, le site est réalisé from scratch. Il est hébergé sur mon serveur personnel, qui est dockerisé.
 
-![Aperçu du site web](mettre le code pour le lien de l'image)
+*Image d'aperçu : [mettre le code pour le lien de l'image]*
 
-## Processus de Création des Cartes
+Ce site est encore en construction, donc de nombreuses pages ne sont pas encore développées.
 
-Chaque carte est dessinée de manière traditionnelle, débutant par un crayonné sur papier, suivi d'un encrage au feutre. Après numérisation, une colorisation numérique est réalisée sous Photoshop, pour finalement créer un objet 3D sous Unreal Engine.
+## Dessin Traditionnel
 
-- ![Dessin traditionnel](mettre le code pour le lien de l'image) - Dessin tradit
-- ![Encrage](mettre le code pour le lien de l'image) - Encrage
-- ![Colorisation Photoshop](mettre le code pour le lien de l'image) - Colo Photoshop
-- ![Objet 3D](mettre le code pour le lien de l'image) - 3D
+Étant initialement dessinateur, j'ai fait le choix de faire chaque dessin de carte de manière traditionnelle : l'objectif est d'utiliser la technologie pour révéler chaque étape : je pars d'un crayonné papier, puis un encrage au feutre. Après une numérisation, je produis une colorisation numérique sous Photoshop pour enfin produire un objet 3D produit sous Unreal Engine.
+
+*Image d'aperçu crayonné : [lien de l'image]*  
+*Image d'aperçu encrage : [lien de l'image]*  
+*Image d'aperçu colorisation Photoshop : [lien de l'image]*  
+*Image d'aperçu 3D : [lien de l'image]*
 
 ## 3D
 
-Des réalisations 3D des cartes sont disponibles via le viewer Sketchfab.
+Ce projet ayant pour objectif de dévoiler l'ensemble de mes compétences, vous y trouverez de petites réalisations 3D des cartes qui serviront dans le projet de jeu. Elles sont présentées à l'aide du viewer "Sketchfab".
 
-![Aperçu 3D](mettre le code pour le lien de l'image)
-
-Visualisez les cartes en 3D [ici](https://sketchfab.com/DavidChardon/collections/fishs-legion-1-f925ab9a24114781a88abf7068a75094).
+Vous pouvez dès à présent avoir un aperçu des cartes en 3D ici : [Sketchfab Collection](https://sketchfab.com/DavidChardon/collections/fishs-legion-1-f925ab9a24114781a88abf7068a75094)
 
 ## Unity, Aseprite et Mini Jeux
 
-Un mini-jeu de type 16 bits est en développement pour présenter l'univers du jeu et initier les joueurs aux règles. Ce jeu RPG en vue de dessus comprend des phases de combat inspirées de Magic the Gathering.
+Je projette de faire une présentation de l'univers du jeu en utilisant Unity et Aseprite. Il s'agit ici de réaliser un mini-jeu de type 16 bits, en référence à ce qui a pu bercer mon enfance. Le jeu a pour objectif de présenter le lore du projet ainsi que d'initier le joueur aux différentes règles du jeu de carte. C'est donc un jeu de type RPG en vue par dessus, avec des phases de combat rappelant le jeu Magic: The Gathering, en plus simple.
 
-![Aperçu du mini jeu](mettre le code pour le lien de l'image)
+*Image d'aperçu : [mettre le code pour le lien de l'image]*
 
-## Base de Données
+## Base de Données (BDD)
 
-Le site permettra d'explorer les cartes à l'aide de PHP et SQL, de gérer sa collection une fois le wallet crypto connecté.
+Sur le site, les cartes seront explorables à l'aide de PHP et de SQL. Une base de données permet de chercher des cartes. Il sera également possible de gérer sa propre collection, une fois le wallet crypto connecté.
 
 ## Blockchain et NFT
 
-Le jeu utilise la blockchain pour créer des cartes uniques et échangeables. Des mécaniques de jeu permettent de créer des decks compétitifs, même pour les joueurs ayant peu de moyens.
+La mécanique du jeu fonctionne sur le principe de rareté. À l'image de Magic, de Pokémon, etc., certaines créatures du jeu seront difficiles à obtenir et seront donc, en théorie, plus puissantes. Toutefois, souhaitant faire en sorte que le jeu soit accessible à tous les portefeuilles, j'ai prévu plusieurs mécaniques de jeu permettant la création de decks "paysans" (entendez par là des decks efficaces malgré le manque de moyens). L'objectif étant de pouvoir permettre à tout le monde de jouer : la puissance d'une carte ne fait rien sans une bonne stratégie, et un pauvre paysan bien organisé peut rivaliser avec n'importe qui. La technologie de la blockchain permet d'avoir des cartes réellement uniques, échangeables, voire vendables.
 
 ## Lore
 
-Le lore suit l'histoire d'une personne luttant avec la gestion de ses émotions et de son argent, qui se tourne vers la blockchain et fait un pacte avec des démons pour obtenir richesse et savoir, sans se rendre compte des conséquences de ses actions.
+Le lore raconte l'histoire d'une personne n'ayant jamais appris à gérer ni ses émotions, ni son argent. Après avoir entendu parler de la blockchain, et après avoir tenté de s'y mettre sans réussite, endettée, elle décide de faire un pacte avec les démons de la goétie pour obtenir richesse et savoir.
+
+Elle va alors traverser les 9 cercles des enfers pour se retrouver confrontée à ses propres démons. Elle va apprendre le risk management et de nombreux autres éléments (biais cognitifs, etc...)
+
+Mais elle ne sait pas qu'en revenant sur terre, le démon Légion va profiter d'elle pour prendre possession d'internet à travers la blockchain.
 
 ---
-
-Ce projet est une exploration profonde de diverses compétences et technologies, avec l'objectif de créer une expérience de jeu enrichissante et accessible à tous.
