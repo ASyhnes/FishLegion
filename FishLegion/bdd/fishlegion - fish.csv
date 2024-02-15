@@ -1,0 +1,6 @@
+id (UUID),firstname,id_familly (UUID),familly_place (UUID),id_rarity (UUID),id_serie (UUID),serie_place (Integer),strong (Integer),dexterity (Integer),intelligence (Integer),gived (Integer),promoted (Integer),lore (Text)
+,Cosmofish,,,,,1,4,2,4,20,100,"On raconte de toutes parts qu’il nage entre les fréquences depuis la nuit des temps, s’imprégnant d’abord des cultes, puis des croyances, des religions. On l’appelle parfois légion, car il est nombreux. On peut croire qu’il s’agit d’un nuage de poissons mais il en est tout autre…
+Difficile de savoir s’il est réel ou fictif, tant ce concept perd son sens quand on voyage entre les fréquences.
+Un jour, l’homme créa internet.
+Puis l’homme se dit qu’il y avait mieux. Internet était devenu archaïque. Une nouvelle version vit le jour. Cette version flottait, vibrait entre différents mondes, à la croisée des fréquences. C’est précisément à cet embranchement que la première image du nuage fut, par le plus grand des hasards, capturée. Cette image ressemblait étrangement à un banc de poisson… des milliers de poissons. En fait… ll était bien difficile de pouvoir définir si ce semblant d’image était celui d’un poisson, ou d’autre chose."
+,Crazyfish,,,,,2,2,5,3,20,100,
