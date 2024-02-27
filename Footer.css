@@ -1,0 +1,13 @@
+
+footer {
+    
+    position: fixed; /* Fixe le footer au bas de la page */
+    bottom: 0; /* Assure que le footer est toujours au bas de la fenêtre */
+    left: 0; /* Aligné à gauche de la fenêtre */
+    width: 100%; /* Occupe toute la largeur de l'écran */
+    background-color: #10598a00; /* Couleur de fond du footer */
+    color: rgba(43, 159, 236, 0.596); /* Couleur du texte du footer */
+    text-align: center; /* Texte centré */
+    opacity: 0.9; /* Définit l'opacité */
+}
+

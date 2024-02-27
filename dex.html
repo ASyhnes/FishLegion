@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Dex of Legion</title>
+    <link rel="stylesheet" href="dex.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="Navbar.css">
+    <link rel="stylesheet" href="footer.css">
+</head>
+<body>
+   
+ 
+    <nav>
+        <!-- légende: /.mot./ egal lien non défini -->
+          <div class="wrapper">
+            <div class="logo"><img src="img/dos_Mini.png" alt=""></a></div>
+            <input type="radio" name="slider" id="menu-btn">
+            <input type="radio" name="slider" id="close-btn">
+            <ul class="nav-links">
+              <label for="close-btn" class="btn close-btn"><i class="fas fa-times"></i></label>
+              <li><a href="index.html">Home</a></li>
+              <li>
+                <a href="#" class="desktop-item">About</a>
+                <input type="checkbox" id="showDrop">
+                <label for="showDrop" class="mobile-item">Dropdown Menu</label>
+                <ul class="drop-menu">
+                  <li><a href="lore.html">Lore</a></li>  
+                  <li><a href="#">...</a></li>
+                  <li><a href="#">...</a></li>
+                  <li><a href="#">...</a></li>
+                </ul>
+              <li>
+                <a href="#" class="desktop-item">Items</a>
+                <input type="checkbox" id="showDrop">
+                <label for="showDrop" class="mobile-item">Dropdown Menu</label>
+                <ul class="drop-menu">
+                  <li><a href="dex.html">dex</a></li>  
+                  <li><a href="#">...</a></li>
+                  <li><a href="#">...</a></li>
+                  <li><a href="#">...</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#" class="desktop-item">...</a>
+                <input type="checkbox" id="showMega">
+                <label for="showMega" class="mobile-item">...</label>
+                <div class="mega-box">
+                  <div class="content">
+                    <div class="row">
+                      <img src="img/goldsansfond2.png" alt="">
+                    </div>
+                    <div class="row">
+                      <header>...</header>
+                      <ul class="mega-links">
+                        <li><a href="#">...</a></li>
+                        <li><a href="#">...</a></li>
+                        <li><a href="#">...</a></li>
+                        <li><a href="#">...</a></li>
+                      </ul>
+                    </div>
+                    <div class="row">
+                      <header>...</header>
+                      <ul class="mega-links">
+                        <li><a href="#">...</a></li>
+                        <li><a href="#">...</a></li>
+                        <li><a href="#">...</a></li>
+                        <li><a href="#">...</a></li>
+                      </ul>
+                    </div>
+                    <div class="row">
+                      <header>...</header>
+                      <ul class="mega-links">
+                        <li><a href="#">...</a></li>
+                        <li><a href="#">...</a></li>
+                        <li><a href="#">...</a></li>
+                        <li><a href="#">...</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li><a href="#">Feedback</a></li>
+            </ul>
+            <label for="menu-btn" class="btn menu-btn"><i class="fas fa-bars"></i></label>
+            <div href="#" class="nav-button">Connect your wallet</div>
+          </div>
+        </nav>
+
+        <header>
+            <h1>Cards</h1>
+        </header>
+
+        <div class="sidebar">
+          <ul class="filter-list">
+              <li>
+                  <label for="serie">Série</label>
+                  <select id="serie" name="serie">
+                      <option value="2021">2021</option>
+                      <option value="2023">2023</option>
+                  </select>
+              </li>
+              <li>
+                  <label for="rarete">Rareté</label>
+                  <select id="rarete" name="rarete">
+                      <option value="commune">Commune</option>
+                      <option value="unco">Unco</option>
+                      <option value="rare">Rare</option>
+                      <option value="gold">hors série</option>
+
+                  </select>
+              </li>
+              <li>
+                  <label for="famille">Famille</label>
+                  <select id="famille" name="famille">
+                      <option value="xeno">Xeno</option>
+                      <option value="undead">Undead</option>
+                      <option value="crazy">Crazy</option>
+                  </select>
+              </li>
+              <li>
+                  <label for="force">Force</label>
+                  <input type="range" id="force" name="force" min="1" max="9">
+              </li>
+              <li>
+                  <label for="intelligence">Intelligence</label>
+                  <input type="range" id="intelligence" name="intelligence" min="1" max="9">
+              </li>
+              <li>
+                  <label for="dexterite">Dextérité</label>
+                  <input type="range" id="dexterite" name="dexterite" min="1" max="9">
+              </li>
+          </ul>
+      </div>
+      
+
+        <div class="dex">
+            <!-- More cards following the same pattern -->
+            <div class="card"><a href="cosmofish.html"><img src="Sources/Cartes/1_2021_1_cosmofish_common.png" alt="cosmofish"></a><p>Cosmofish</p><p>Space</p></div>
+            <div class="card"><a href="crazyfish.html"><img src="Sources/Cartes/1_2021_2_crazyfish_common.png" alt="cosmofish"></a><p>Crazyfish</p><p>Madness</p></div>
+            <div class="card"><img src="Sources/Cartes/1_2021_3_propafish_common.png" alt="cosmofish"><p>fish3</p><p>famille type</p></div>
+            <div class="card"><img src="Sources/Cartes/1_2021_4_devilfish_unco.png" alt="cosmofish"><p>fish3</p><p>famille type</p></div>
+            <div class="card"><img src="Sources/Cartes/1_2021_5_ironfish_unco.png" alt="cosmofish"><p>fish3</p><p>famille type</p></div>
+            <div class="card"><img src="Sources/Cartes/1_2021_6_deadfish_rare.png" alt="cosmofish"><p>fish3</p><p>famille type</p></div>
+            <div class="card"><img src="Sources/Cartes/1_2021_7_xenofish_common.png" alt="cosmofish"><p>fish3</p><p>famille type</p></div>
+            <div class="card"><img src="Sources/Cartes/1_2021_8_crazyfish_gold.png" alt="cosmofish"><p>fish3</p><p>famille type</p></div>
+            <div class="card"><img src="Sources/Cartes/2_2023_1_smylefish_common.png" alt="cosmofish"><p>fish3</p><p>famille type</p></div>
+            <div class="card"><img src="Sources/Cartes/2_2023_2_mushfish_common.png" alt="cosmofish"><p>fish3</p><p>famille type</p></div>
+            <div class="card"><img src="Sources/Cartes/2_2023_3_psychomanfish_common.png" alt="cosmofish"><p>fish3</p><p>famille type</p></div>
+            <div class="card"><img src="Sources/Cartes/2_2023_4_arlefish_unco.png" alt="cosmofish"><p>fish3</p><p>famille type</p></div>
+            <div class="card"><img src="Sources/Cartes/2_2023_5_facehugger_unco.png" alt="cosmofish"><p>fish3</p><p>famille type</p></div>
+            <div class="card"><img src="Sources/Cartes/2_2023_6_otsegofish_rare.png" alt="cosmofish"><p>fish3</p><p>famille type</p></div>
+            <div class="card"><img src="Sources/Cartes/2_2023_7_chtulufish_rare.png" alt="cosmofish"><p>fish3</p><p>famille type</p></div>
+            <div class="card"><img src="Sources/Cartes/2_2023_8_chtulufish_gold.png" alt="cosmofish"><p>fish3</p><p>famille type</p></div>
+            
+        </div>
+
+    
+    <section class="container">
+        <!-- Contenu de la page Bibliothéque de toute les cartes -->
+    </section>
+    <footer>
+        <p>Modelers of Legion</p>
+        <a href="https://instagram.com">Instagram</a>
+        <a href="https://twitter.com">Twitter</a>
+    </footer>
+</body>
+</html>

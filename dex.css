@@ -1,0 +1,143 @@
+:root {
+    --glow-color: hsl(199, 100%, 69%);
+  }
+
+body {
+    margin: 0;
+    padding: 20%;
+    background-image: url("img/background.png") ; 
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    }
+  
+.dex {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columns */
+    gap: 20px;
+  }
+  
+.card {
+    background-color: rgba(0, 150, 167, 0.267); 
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    aspect-ratio: 1; 
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3); ; 
+    transition: transform 0.3s; 
+    }
+  
+    
+
+.card:hover {
+    z-index: 2;
+    animation-delay: 1s;
+    transform: scale(1.5); 
+    background-color: rgba(0, 150, 167, 0.856);
+    border: 0.15em solid var(--glow-color);
+    border-radius: 0.45em;
+    box-shadow:
+        0 0 8px #c20707bd,
+        inset 0 0 8px #39e704,
+        0 0 16px #0961be,
+        inset 0 0 16px #c411b5,
+        0 0 32px #0367d3,
+        inset 0 0 32px #007afc;
+
+    }
+
+.card img {
+    width: 100%;  
+    height: auto; 
+    display: block; /* Empêche l'ajout d'espace supplémentaire en dessous de l'image */
+    }
+    
+.card p {
+    margin: 5px 0;
+    }
+
+
+
+.card p:first-child::before {
+    content: "";
+    display: none;
+    }
+
+    /*sidebare*/
+    
+    .sidebar {
+        width: 150px; /* Largeur de la barre latérale */
+        background-color: rgba(255, 255, 255, 0); 
+        padding: 20px;
+        padding-top: 10%;
+        position: fixed; 
+        left: 0; 
+        top: 0; 
+        height: 100%; /* Hauteur complète */
+        overflow-y: auto; /* Ajoute un défilement si nécessaire */
+    }
+    
+    .sidebar select,
+    .sidebar input[type=range] {
+    width: 100%; 
+    padding: 5px; /* Ajoute un peu d'espace à l'intérieur */
+    margin-top: 5px; /* Espace au-dessus de chaque élément */
+}
+    /* Ajustement pour le contenu principal */
+
+
+    /* Style pour les curseurs */
+.sidebar input[type=range] {
+    -webkit-appearance: none; /* Supprime l'apparence par défaut */
+    appearance: none;
+    height: 10px; /* Hauteur du curseur */
+    background: #3201e434; /* Couleur de fond du curseur */
+    outline: none; /* Supprime l'outline au focus */
+    opacity: 0.7; /* Rend le curseur légèrement transparent */
+    transition: opacity 0.2s; /* Transition pour l'effet au survol */
+}
+
+.sidebar input[type=range]:hover {
+    opacity: 1; /* Opacité pleine au survol */
+    border-radius: 2px;
+}
+
+/* Style pour la piste du curseur */
+.sidebar input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Supprime l'apparence par défaut */
+    appearance: none;
+    width: 20px; /* Largeur de la piste */
+    height: 20px; /* Hauteur de la piste */
+    background: var(--glow-color); /* Couleur de la piste */
+    cursor: pointer; /* Curseur en forme de pointeur */
+}
+
+.sidebar input[type=range]::-moz-range-thumb {
+    width: 20px; /* Largeur de la piste pour Firefox */
+    height: 20px; /* Hauteur de la piste pour Firefox */
+    background: var(--glow-color); /* Couleur de la piste pour Firefox */
+    cursor: pointer;
+}
+
+.filter-list {
+    list-style-type: none; /* Supprime les puces */
+    padding: 0;
+}
+
+.dex {
+    margin-left: 10px; /* Espace pour la barre latérale */
+}
+    
+
+
+    

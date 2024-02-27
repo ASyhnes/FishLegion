@@ -1,0 +1,19 @@
+
+
+audio {
+    display: block;
+    width: ;
+    max-width: 400px; /* J'ai augmenté la largeur maximale pour la barre de musique */
+    margin: 0 auto;
+    background-color: rgba(255, 0, 0, 0.164)101; /* Fond transparent */
+    border: none; /* Suppression de la bordure */
+  }
+  
+  audio::-webkit-media-controls-panel {
+    background-color: rgba(255, 0, 0, 0.123); /* Couleur de fond bleue pour la barre de musique */
+  }
+  
+  audio::-webkit-media-controls-start-playback-button {
+    display: none; /* Masquer le bouton de lecture initial */
+  }
+  

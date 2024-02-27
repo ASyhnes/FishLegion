@@ -1,0 +1,36 @@
+body {
+    background-image: url("img/background_a.png"); /* Chemin vers votre image de fond */
+    background-size: cover; /* Ajuster la taille de l'image pour remplir tout le corps */
+    image-rendering: pixelated;
+    background-position: bottom center; /* Centrer l'image horizontalement et verticalement */
+    background-repeat: no-repeat; /* Empêcher la répétition de l'image */
+    /* Autres styles si nécessaire */
+    display: fixed;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Roboto', sans-serif; /* Remplacer 'Roboto' par le nom de la police choisie */
+
+  }
+  
+  h1 {
+
+    position: top; 
+    top: 0;
+    width: 500px;
+    margin-top: 60px;
+    background: rgba(211, 8, 8, 0);
+    padding: 10px;
+  }
+ 
+  .introdubox {
+    width: 1000px;
+    height: 500px;
+    background-color: rgba(0, 0, 255, 0.295);
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    position: relative;
+  }
+
+  
+
+  
